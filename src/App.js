@@ -16,31 +16,36 @@ function App() {
           <Canvas 
           colorManagement
           > 
-          <Html
-            prepend // Project content behind the canvas (default: false)
+{/*           <Html
+
             center // Adds a -50%/-50% css transform (default: false) [ignored in transform mode]
             fullscreen // Aligns to the upper-left corner, fills the screen (default:false) [ignored in transform mode]
-            distanceFactor={10} // If set (default: undefined), children will be scaled by this factor, and also by distance to a PerspectiveCamera / zoom by a OrthographicCamera.
-            zIndexRange={[100, 0]} // Z-order range (default=[16777271, 0])
-            transform // If true, applies matrix3d transformations (default=false)
+            distanceFactor={8} // If set (default: undefined), children will be scaled by this factor, and also by distance to a PerspectiveCamera / zoom by a OrthographicCamera.
+            transform
             sprite // Renders as sprite, but only in transform mode (default=false)
 
           >
-            <h1>hello</h1>
-            <p>world</p>
-          </Html>
+            <h1>BASED <br></br> ON A <br></br> TRUE STORY</h1>
+          </Html> */}
               <PerspectiveCamera 
               ref={myCamera}
               makeDefault
-              position={[0,3,2]}
+              position={[-12,5,5]}
+              fov={5}
               >
               <mesh />
               </PerspectiveCamera>
-              <OrbitControls camera={myCamera.current}/>
-              <ambientLight intensity={1} />
-              <pointLight position={[10, 10, 10]} />
+              <OrbitControls 
+
+              maxAzimuthAngle={Math.PI }
+              maxPolarAngle={Math.PI / 2}
+              minAzimuthAngle={-Math.PI / 2}
+              minPolarAngle={Math.PI / 2.6}/> 
+              <ambientLight intensity={1.2} />
+              <pointLight position={[1, 1, 1]} />
             <Suspense fallback={null}>
-            <Model />
+            <Model 
+            position={[0,-0.6,-1]} />
             </Suspense>
           </Canvas>
         </div>

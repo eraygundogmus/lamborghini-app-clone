@@ -27,125 +27,125 @@ export default function Model(props) {
     <group ref={group} {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
         <group rotation={[Math.PI / 2, 0, 0]}>
-          <group position={[0.91, 0.69, 0.89]} rotation={[0, 0, 0]} scale={[0.12, 0.12, 0.12]}>
-            <group position={[-7.57, -15.3, -7.41]} scale={[8.3, 8.3, 8.3]}>
-              <mesh material={materials.Carbon_R} geometry={nodes.Object_64.geometry} />
-              <mesh material={materials.material_30} geometry={nodes.Object_65.geometry} />
+              <group position={[0.91, 0.69, 0.89]} rotation={[0, 0, 0]} scale={[0.12, 0.12, 0.12]}>
+                    <group position={[-7.57, -15.3, -7.41]} scale={[8.3, 8.3, 8.3]}>
+                      <mesh material={materials.Carbon_R} geometry={nodes.Object_64.geometry} />
+                      <mesh material={materials.material_30} geometry={nodes.Object_65.geometry} />
+                    </group>
+                    <group position={[-7.57, -5.69, -7.41]} scale={[8.3, 8.3, 8.3]}>
+                      <mesh material={materials.material_31} geometry={nodes.Object_67.geometry} />
+                    </group>
+                  <group position={[-7.57, -7.42, -7.41]} scale={[8.3, 8.3, 8.3]}>
+                    <mesh material={materials.Carbon_R} geometry={nodes.Object_69.geometry} />
+                    <mesh material={materials['Material.013']} geometry={nodes.Object_70.geometry} />
+                    <mesh material={materials.material_21} geometry={nodes.Object_71.geometry} />
+                    <mesh material={materials.PLAS} geometry={nodes.Object_72.geometry} />
+                    <mesh material={materials.CUIR} geometry={nodes.Object_73.geometry} />
+                  </group>
+              </group>
+              <group name="Empty002_20" position={[-0.84, 0.7, 0.87]} scale={[0.15, 0.15, 0.15]}>
+                    <group position={[5.62, -4.66, -5.81]} scale={[6.69, 6.69, 6.69]}>
+                      <mesh material={materials.Carbon_R} geometry={nodes.Object_76.geometry} />
+                      <mesh material={materials.material_30} geometry={nodes.Object_77.geometry} />
+                    </group>
+                    <group position={[5.62, -4.66, -5.81]} scale={[6.69, 6.69, 6.69]}>
+                      <mesh material={materials.material_31} geometry={nodes.Object_79.geometry} />
+                    </group>
+                    <group position={[5.62, 1.69, -5.81]} scale={[6.69, 6.69, 6.69]}>
+                      <mesh material={materials.Carbon_R} geometry={nodes.Object_81.geometry} />
+                      <mesh material={materials['Material.013']} geometry={nodes.Object_82.geometry} />
+                      <mesh material={materials.material_21} geometry={nodes.Object_83.geometry} />
+                      <mesh material={materials.PLAS} geometry={nodes.Object_84.geometry} />
+                      <mesh material={materials.CUIR} geometry={nodes.Object_85.geometry} />
+                    </group>
+              </group>
+              <group position={[0, 0.02, 0]} rotation={[2.53, 0, Math.PI]} scale={[1, 1.17, 1.17]}>
+                <mesh material={materials.material} geometry={nodes.Object_4.geometry} />
+                <mesh material={materials.CRBN_JANTE} geometry={nodes.Object_5.geometry} />
+                <mesh material={materials['Material.004']} geometry={nodes.Object_6.geometry} />
+                <mesh material={materials['Material.002']} geometry={nodes.Object_7.geometry} />
+                <mesh material={materials['pneu.005']} geometry={nodes.Object_8.geometry} />
+                <mesh material={materials['pneu.005']} geometry={nodes.Object_9.geometry} />
+                <mesh material={materials.TIRE32} geometry={nodes.Object_10.geometry} />
+              </group>
+            <group rotation={[2.53, 0, Math.PI]} scale={[1, 1.17, 1.17]}>
+              <mesh material={materials['Material.003']} geometry={nodes.Object_12.geometry} />
             </group>
-            <group position={[-7.57, -5.69, -7.41]} scale={[8.3, 8.3, 8.3]}>
-              <mesh material={materials.material_31} geometry={nodes.Object_67.geometry} />
-            </group>
-            <group position={[-7.57, -7.42, -7.41]} scale={[8.3, 8.3, 8.3]}>
-              <mesh material={materials.Carbon_R} geometry={nodes.Object_69.geometry} />
-              <mesh material={materials['Material.013']} geometry={nodes.Object_70.geometry} />
-              <mesh material={materials.material_21} geometry={nodes.Object_71.geometry} />
-              <mesh material={materials.PLAS} geometry={nodes.Object_72.geometry} />
-              <mesh material={materials.CUIR} geometry={nodes.Object_73.geometry} />
-            </group>
-          </group>
-          <group name="Empty002_20" position={[-0.84, 0.7, 0.87]} scale={[0.15, 0.15, 0.15]}>
-            <group position={[5.62, -4.66, -5.81]} scale={[6.69, 6.69, 6.69]}>
-              <mesh material={materials.Carbon_R} geometry={nodes.Object_76.geometry} />
-              <mesh material={materials.material_30} geometry={nodes.Object_77.geometry} />
-            </group>
-            <group position={[5.62, -4.66, -5.81]} scale={[6.69, 6.69, 6.69]}>
-              <mesh material={materials.material_31} geometry={nodes.Object_79.geometry} />
-            </group>
-            <group position={[5.62, 1.69, -5.81]} scale={[6.69, 6.69, 6.69]}>
-              <mesh material={materials.Carbon_R} geometry={nodes.Object_81.geometry} />
-              <mesh material={materials['Material.013']} geometry={nodes.Object_82.geometry} />
-              <mesh material={materials.material_21} geometry={nodes.Object_83.geometry} />
-              <mesh material={materials.PLAS} geometry={nodes.Object_84.geometry} />
-              <mesh material={materials.CUIR} geometry={nodes.Object_85.geometry} />
-            </group>
-          </group>
-          <group position={[0, 0.02, 0]} rotation={[2.53, 0, Math.PI]} scale={[1, 1.17, 1.17]}>
-            <mesh material={materials.material} geometry={nodes.Object_4.geometry} />
-            <mesh material={materials.CRBN_JANTE} geometry={nodes.Object_5.geometry} />
-            <mesh material={materials['Material.004']} geometry={nodes.Object_6.geometry} />
-            <mesh material={materials['Material.002']} geometry={nodes.Object_7.geometry} />
-            <mesh material={materials['pneu.005']} geometry={nodes.Object_8.geometry} />
-            <mesh material={materials['pneu.005']} geometry={nodes.Object_9.geometry} />
-            <mesh material={materials.TIRE32} geometry={nodes.Object_10.geometry} />
-          </group>
-          <group rotation={[2.53, 0, Math.PI]} scale={[1, 1.17, 1.17]}>
-            <mesh material={materials['Material.003']} geometry={nodes.Object_12.geometry} />
-          </group>
-          <group position={[0, 0.02, 1.31]} rotation={[2.53, 0, Math.PI]} scale={[1, 1.17, 1.17]}>
-            <mesh material={materials.material} geometry={nodes.Object_14.geometry} />
-            <mesh material={materials.CRBN_JANTE} geometry={nodes.Object_15.geometry} />
-            <mesh material={materials['Material.004']} geometry={nodes.Object_16.geometry} />
-            <mesh material={materials['Material.003']} geometry={nodes.Object_17.geometry} />
-            <mesh material={materials['Material.002']} geometry={nodes.Object_18.geometry} />
-            <mesh material={materials['pneu.005']} geometry={nodes.Object_19.geometry} />
-            <mesh material={materials['pneu.005']} geometry={nodes.Object_20.geometry} />
-            <mesh material={materials.TIRE32} geometry={nodes.Object_21.geometry} />
-          </group>
-          <group rotation={[2.53, 0, Math.PI]} scale={[1.92, 2.26, 2.26]}>
-            <mesh material={materials['Material.010']} geometry={nodes.Object_23.geometry} />
-          </group>
-          <group rotation={[2.53, 0, Math.PI]} scale={[1.92, 2.26, 2.26]}>
-            <mesh material={materials['Material.010']} geometry={nodes.Object_25.geometry} />
-          </group>
+                <group position={[0, 0.02, 1.31]} rotation={[2.53, 0, Math.PI]} scale={[1, 1.17, 1.17]}>
+                  <mesh material={materials.material} geometry={nodes.Object_14.geometry} />
+                  <mesh material={materials.CRBN_JANTE} geometry={nodes.Object_15.geometry} />
+                  <mesh material={materials['Material.004']} geometry={nodes.Object_16.geometry} />
+                  <mesh material={materials['Material.003']} geometry={nodes.Object_17.geometry} />
+                  <mesh material={materials['Material.002']} geometry={nodes.Object_18.geometry} />
+                  <mesh material={materials['pneu.005']} geometry={nodes.Object_19.geometry} />
+                  <mesh material={materials['pneu.005']} geometry={nodes.Object_20.geometry} />
+                  <mesh material={materials.TIRE32} geometry={nodes.Object_21.geometry} />
+                </group>
+              <group rotation={[2.53, 0, Math.PI]} scale={[1.92, 2.26, 2.26]}>
+                <mesh material={materials['Material.010']} geometry={nodes.Object_23.geometry} />
+              </group>
+              <group rotation={[2.53, 0, Math.PI]} scale={[1.92, 2.26, 2.26]}>
+                <mesh material={materials['Material.010']} geometry={nodes.Object_25.geometry} />
+              </group>
           <group position={[0, 1.2, -0.12]} rotation={[-Math.PI, 0, -Math.PI]} scale={[0.44, 0.44, 0.44]}>
-            <group position={[0, -2.5, 0]} scale={[1.95, 1.95, 1.95]}>
-              <mesh material={materials.Display} geometry={nodes.Object_28.geometry} />
-              <mesh material={materials.LOGO} geometry={nodes.Object_29.geometry} />
-            </group>
-            <group position={[0, -2.5, 0]} scale={[1.95, 1.95, 1.95]}>
-              <mesh material={materials['Material.016']} geometry={nodes.Object_31.geometry} />
-              <mesh material={materials.Vents} geometry={nodes.Object_32.geometry} />
-              <mesh material={materials.Plastic_Dash} geometry={nodes.Object_33.geometry} />
-              <mesh material={materials.Seat_Belt} geometry={nodes.Object_34.geometry} />
-              <mesh material={materials.CUIR} geometry={nodes.Object_35.geometry} />
-              <mesh material={materials['Material.013']} geometry={nodes.Object_36.geometry} />
-              <mesh material={materials.material_21} geometry={nodes.Object_37.geometry} />
-              <mesh material={materials.PLAS} geometry={nodes.Object_38.geometry} />
-              <mesh material={materials['Material.014']} geometry={nodes.Object_39.geometry} />
-              <mesh material={materials.material_24} geometry={nodes.Object_40.geometry} />
-              <mesh material={materials.material_25} geometry={nodes.Object_41.geometry} />
-              <mesh material={materials.Carbon_R} geometry={nodes.Object_42.geometry} />
-              <mesh material={materials.Body_Colour} geometry={nodes.Object_43.geometry} />
-              <mesh material={materials['Material.012']} geometry={nodes.Object_44.geometry} />
-              <mesh material={materials.material_19} geometry={nodes.Object_45.geometry} />
-            </group>
-            <group position={[0, -2.5, 0]} rotation={[-Math.PI / 10, 0, 0]} scale={[1.95, 1.95, 1.95]}>
-              <mesh material={materials.LOGO} geometry={nodes.Object_47.geometry} />
-              <mesh material={materials.Steering_Wheel_Logo} geometry={nodes.Object_48.geometry} />
-              <mesh material={materials.CUIR} geometry={nodes.Object_49.geometry} />
-              <mesh material={materials.material_21} geometry={nodes.Object_50.geometry} />
-              <mesh material={materials['Material.013']} geometry={nodes.Object_51.geometry} />
-              <mesh material={materials.PLAS} geometry={nodes.Object_52.geometry} />
-            </group>
-            <group position={[0, -2.5, 0]} scale={[1.95, 1.95, 1.95]}>
-              <mesh material={materials['Material.013']} geometry={nodes.Object_54.geometry} />
-              <mesh material={materials.material_19} geometry={nodes.Object_55.geometry} />
-              <mesh material={materials.Carbon_R} geometry={nodes.Object_56.geometry} />
-              <mesh material={materials.material_27} geometry={nodes.Object_57.geometry} />
-              <mesh material={materials.material_21} geometry={nodes.Object_58.geometry} />
-            </group>
+                <group position={[0, -2.5, 0]} scale={[1.95, 1.95, 1.95]}>
+                  <mesh material={materials.Display} geometry={nodes.Object_28.geometry} />
+                  <mesh material={materials.LOGO} geometry={nodes.Object_29.geometry} />
+                </group>
+                <group position={[0, -2.5, 0]} scale={[1.95, 1.95, 1.95]}>
+                  <mesh material={materials['Material.016']} geometry={nodes.Object_31.geometry} />
+                  <mesh material={materials.Vents} geometry={nodes.Object_32.geometry} />
+                  <mesh material={materials.Plastic_Dash} geometry={nodes.Object_33.geometry} />
+                  <mesh material={materials.Seat_Belt} geometry={nodes.Object_34.geometry} />
+                  <mesh material={materials.CUIR} geometry={nodes.Object_35.geometry} />
+                  <mesh material={materials['Material.013']} geometry={nodes.Object_36.geometry} />
+                  <mesh material={materials.material_21} geometry={nodes.Object_37.geometry} />
+                  <mesh material={materials.PLAS} geometry={nodes.Object_38.geometry} />
+                  <mesh material={materials['Material.014']} geometry={nodes.Object_39.geometry} />
+                  <mesh material={materials.material_24} geometry={nodes.Object_40.geometry} />
+                  <mesh material={materials.material_25} geometry={nodes.Object_41.geometry} />
+                  <mesh material={materials.Carbon_R} geometry={nodes.Object_42.geometry} />
+                  <mesh material={materials.Body_Colour} geometry={nodes.Object_43.geometry} />
+                  <mesh material={materials['Material.012']} geometry={nodes.Object_44.geometry} />
+                  <mesh material={materials.material_19} geometry={nodes.Object_45.geometry} />
+                </group>
+                <group position={[0, -2.5, 0]} rotation={[-Math.PI / 10, 0, 0]} scale={[1.95, 1.95, 1.95]}>
+                  <mesh material={materials.LOGO} geometry={nodes.Object_47.geometry} />
+                  <mesh material={materials.Steering_Wheel_Logo} geometry={nodes.Object_48.geometry} />
+                  <mesh material={materials.CUIR} geometry={nodes.Object_49.geometry} />
+                  <mesh material={materials.material_21} geometry={nodes.Object_50.geometry} />
+                  <mesh material={materials['Material.013']} geometry={nodes.Object_51.geometry} />
+                  <mesh material={materials.PLAS} geometry={nodes.Object_52.geometry} />
+                </group>
+                <group position={[0, -2.5, 0]} scale={[1.95, 1.95, 1.95]}>
+                  <mesh material={materials['Material.013']} geometry={nodes.Object_54.geometry} />
+                  <mesh material={materials.material_19} geometry={nodes.Object_55.geometry} />
+                  <mesh material={materials.Carbon_R} geometry={nodes.Object_56.geometry} />
+                  <mesh material={materials.material_27} geometry={nodes.Object_57.geometry} />
+                  <mesh material={materials.material_21} geometry={nodes.Object_58.geometry} />
+                </group>
           </group>
-          <group position={[0.23, 4.92, 6.97]} rotation={[-Math.PI, 1.54, -Math.PI]} scale={[0.53, 0.53, 0.53]}>
-            <mesh material={materials.plastique} geometry={nodes.Object_60.geometry} />
-            <mesh material={materials.chrome} geometry={nodes.Object_61.geometry} />
-          </group>
-          <mesh material={materials.Glass} geometry={nodes.Object_87.geometry} />
-          <mesh material={materials.material_31} geometry={nodes.Object_88.geometry} />
-          <mesh material={materials.GLS_AR} geometry={nodes.Object_89.geometry} />
-          <mesh material={materials.material_34} geometry={nodes.Object_90.geometry} />
-          <mesh material={materials.Carbon_R} geometry={nodes.Object_92.geometry} />
-          <mesh material={materials.Carbon_M} geometry={nodes.Object_93.geometry} />
-          <mesh material={materials.Metal_C} geometry={nodes.Object_94.geometry} />
-          <mesh material={materials.Material} geometry={nodes.Object_95.geometry} />
-          <mesh material={materials.LIGT_RED} geometry={nodes.Object_96.geometry} />
-          <mesh material={materials.LIGT_BLC} geometry={nodes.Object_97.geometry} />
-          <mesh material={materials.DTL_FER} geometry={nodes.Object_98.geometry} />
-          <mesh   material={materials.MIROR} geometry={nodes.Object_99.geometry} />
-          <mesh material={materials['Material.001']} geometry={nodes.Object_100.geometry} />
-          <mesh material={materials.CENTENARIO} geometry={nodes.Object_101.geometry} />
-          <mesh material={materials.material_30} geometry={nodes.Object_103.geometry} />
-          <mesh material={materials.material_0} geometry={nodes.Object_105.geometry} />
-          <mesh material={materials.material_0} geometry={nodes.Object_107.geometry} />
+              <group position={[0.23, 4.92, 6.97]} rotation={[-Math.PI, 1.54, -Math.PI]} scale={[0.53, 0.53, 0.53]}>
+                <mesh material={materials.plastique} geometry={nodes.Object_60.geometry} />
+                <mesh material={materials.chrome} geometry={nodes.Object_61.geometry} />
+              </group>
+              <mesh material={materials.Glass} geometry={nodes.Object_87.geometry} />
+              <mesh material={materials.material_31} geometry={nodes.Object_88.geometry} />
+              <mesh material={materials.GLS_AR} geometry={nodes.Object_89.geometry} />
+              <mesh material={materials.material_34} geometry={nodes.Object_90.geometry} />
+              <mesh material={materials.Carbon_R} geometry={nodes.Object_92.geometry} />
+              <mesh material={materials.Carbon_M} geometry={nodes.Object_93.geometry} />
+              <mesh material={materials.Metal_C} geometry={nodes.Object_94.geometry} />
+              <mesh material={materials.Material} geometry={nodes.Object_95.geometry} />
+              <mesh material={materials.LIGT_RED} geometry={nodes.Object_96.geometry} />
+              <mesh material={materials.LIGT_BLC} geometry={nodes.Object_97.geometry} />
+              <mesh material={materials.DTL_FER} geometry={nodes.Object_98.geometry} />
+              <mesh   material={materials.MIROR} geometry={nodes.Object_99.geometry} />
+              <mesh material={materials['Material.001']} geometry={nodes.Object_100.geometry} />
+              <mesh material={materials.CENTENARIO} geometry={nodes.Object_101.geometry} />
+              <mesh material={materials.material_30} geometry={nodes.Object_103.geometry} />
+              <mesh material={materials.material_0} geometry={nodes.Object_105.geometry} />
+              <mesh material={materials.material_0} geometry={nodes.Object_107.geometry} />
         </group>
       </group>
     </group>
