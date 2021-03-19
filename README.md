@@ -1,3 +1,7 @@
+# Screenshot
+
+[Clone](https://i.ibb.co/3T0S3GL/clone.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
