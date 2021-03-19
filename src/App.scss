@@ -34,11 +34,18 @@ body,
 canvas {
   width: 60%;
   height: 800px;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.8) 30%,
-    rgba(242, 242, 242, 0.2) 100%
-  );
-  /*   background-image: url(https://images.fineartamerica.com/images-medium-large-5/empty-background-for-car-ads-maybe-yubo.jpg); */
+
+  background: linear-gradient(180deg, rgb(5, 4, 4) 10%, rgb(75, 75, 75) 100%);
+  /*   background-image: url(https://images.unsplash.com/photo-1578364249730-0c4ee16426fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+  background-repeat: no-repeat, repeat;
+  background-size: cover; */
+}
+.app h1 {
+  font-size: 72px;
+  position: absolute;
+  font-weight: 900;
+  z-index: 2;
+  margin: 12% 0 0 5%;
+  color: #f2f2f2;
+  font-weight: 700;
 }

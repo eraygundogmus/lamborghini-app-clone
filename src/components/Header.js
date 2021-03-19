@@ -1,14 +1,15 @@
 import React from 'react'
 import './Header.scss';
-import chat from "./chat.png"
-import loupe from "./loupe.png"
-import menu from "./menu.png"
+import chat from "./assets/chat.png"
+import loupe from "./assets/loupe.png"
+import menu from "./assets/menu.png"
+import logo from "./assets/logo.png"
 
 function Header() {
     return (
         <div className="header">
             <div className="header-logo">
-                <img src="http://assets.stickpng.com/thumbs/580b585b2edbce24c47b2c89.png"/>
+                <img src={logo}/>
             </div>
             <div className="header_nav">
                 <div className="header_nav_left">
