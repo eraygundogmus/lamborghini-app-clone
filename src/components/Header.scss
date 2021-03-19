@@ -1,19 +1,42 @@
 .app {
   .header {
-    height: 94px;
-    color: white;
+    height: 95px;
+    color: #ececec;
     display: flex;
-    background-color: #202020;
+    background-color: #181818;
+    font-size: 15.4px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 24px;
+    text-size-adjust: 100%;
+    text-rendering: auto;
+    border: 1px solid #101010;
+    .header-logo {
+      align-items: center;
+      display: flex;
+    }
     .header-logo img {
-      height: 80px;
+      height: 63px;
+      margin-left: 3.6rem;
+      margin-right: 10px;
+      cursor: pointer;
     }
     .header_nav {
       display: flex;
       justify-content: space-between;
+      align-items: center;
+      width: 100%;
       .header_nav_left {
         ul {
           list-style-type: none;
           display: inline-flex;
+        }
+        li {
+          margin-right: 26px;
+
+          span {
+            cursor: pointer;
+          }
         }
       }
       .header_nav_right {
@@ -21,15 +44,26 @@
           list-style-type: none;
           display: inline-flex;
         }
+        li {
+          margin-left: 30px;
+          cursor: pointer;
+        }
       }
     }
+    .header_nav_buttons {
+      display: flex;
+      margin-right: 3%;
+    }
     .header_nav_buttons li img {
-      width: 50px;
+      width: 25px;
+      margin: 0 15px 0 15px;
       display: flex;
     }
     .header_nav_buttons ul {
       list-style-type: none;
       display: inline-flex;
+      align-items: center;
+      cursor: pointer;
     }
   }
 }

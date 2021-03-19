@@ -1,5 +1,8 @@
 import React from 'react'
 import './Header.scss';
+import chat from "./chat.png"
+import loupe from "./loupe.png"
+import menu from "./menu.png"
 
 function Header() {
     return (
@@ -41,20 +44,21 @@ function Header() {
                             </ul>
                         </nav>
                 </div>
-                <div className="header_nav_buttons">
+
+            </div>
+            <div className="header_nav_buttons">
                     <ul>
                         <li>
-                            <img src="https://www.flaticon.com/svg/vstatic/svg/3388/3388300.svg?token=exp=1616145687~hmac=2dfcc51b924c34d25d61d9305ab06b09" />
+                            <img src={chat} />
                         </li>
                         <li>
-                            <img src="https://www.flaticon.com/svg/vstatic/svg/622/622669.svg?token=exp=1616145624~hmac=ff289a1c0d7f565356d3a6b8baebfe5d" />
+                            <img src={loupe} />
                         </li>
                         <li>
-                            <img src="https://www.flaticon.com/premium-icon/icons/svg/2791/2791742.svg" />
+                            <img src={menu} />
                         </li>
                     </ul>
                 </div>
-            </div>
         </div>
     )
 }

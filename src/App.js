@@ -41,12 +41,11 @@ function App() {
             position={[0,-0.6,-1]} />
             </Suspense>
             <OrbitControls 
-            
             maxAzimuthAngle={Math.PI }
             maxPolarAngle={Math.PI / 2}
             minAzimuthAngle={-Math.PI / 2}
             minPolarAngle={Math.PI / 2.6}/> 
-            <ambientLight intensity={1.2} />
+            <ambientLight intensity={1.5} />
             <pointLight position={[1, 1, 1]} />
           </Canvas>
         </div>
