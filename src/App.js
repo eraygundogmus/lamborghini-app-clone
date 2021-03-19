@@ -11,7 +11,7 @@ import Model from './Scene'
 function App() {
   const myCamera = useResource()
   return (
-        <div>
+        <div className="app">
           <Header/>
           <Canvas 
           colorManagement
@@ -35,18 +35,19 @@ function App() {
               >
               <mesh />
               </PerspectiveCamera>
-              <OrbitControls 
 
-              maxAzimuthAngle={Math.PI }
-              maxPolarAngle={Math.PI / 2}
-              minAzimuthAngle={-Math.PI / 2}
-              minPolarAngle={Math.PI / 2.6}/> 
-              <ambientLight intensity={1.2} />
-              <pointLight position={[1, 1, 1]} />
             <Suspense fallback={null}>
             <Model 
             position={[0,-0.6,-1]} />
             </Suspense>
+            <OrbitControls 
+            
+            maxAzimuthAngle={Math.PI }
+            maxPolarAngle={Math.PI / 2}
+            minAzimuthAngle={-Math.PI / 2}
+            minPolarAngle={Math.PI / 2.6}/> 
+            <ambientLight intensity={1.2} />
+            <pointLight position={[1, 1, 1]} />
           </Canvas>
         </div>
   );
