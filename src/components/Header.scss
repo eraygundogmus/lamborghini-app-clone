@@ -1,6 +1,35 @@
 .app {
   .header {
-    color: black;
-    background-color: white;
+    height: 94px;
+    color: white;
+    display: flex;
+    background-color: #202020;
+    .header-logo img {
+      height: 80px;
+    }
+    .header_nav {
+      display: flex;
+      justify-content: space-between;
+      .header_nav_left {
+        ul {
+          list-style-type: none;
+          display: inline-flex;
+        }
+      }
+      .header_nav_right {
+        ul {
+          list-style-type: none;
+          display: inline-flex;
+        }
+      }
+    }
+    .header_nav_buttons li img {
+      width: 50px;
+      display: flex;
+    }
+    .header_nav_buttons ul {
+      list-style-type: none;
+      display: inline-flex;
+    }
   }
 }

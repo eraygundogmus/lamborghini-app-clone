@@ -10,7 +10,7 @@ function Header() {
             <div className="header_nav">
                 <div className="header_nav_left">
                     <nav>
-                        <ul>
+                        <ul className="nav-list">
                             <li>
                             <span>Models</span>
                             </li>
