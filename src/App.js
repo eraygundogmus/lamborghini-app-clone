@@ -14,14 +14,19 @@ function App() {
   return (
         <div className="app">
           <Header/>
-          <h1>BASED <br></br>ON A <br></br>TRUE STORY</h1>
-          <Canvas> 
+          <div>
+            <h2>CENTENARIO</h2>
+          <h1>BASED ON<br></br>A TRUE STORY</h1>
+          </div>
+          <Canvas
+          colorManagement> 
+
 
             <PerspectiveCamera 
                 ref={myCamera}
                 makeDefault
-                position={[8,3,22]}
-                fov={5.7}
+                position={[8,5,22]}
+                fov={5.5}
                 aspect={1}
                 >
                 <mesh />
@@ -29,12 +34,15 @@ function App() {
               <Suspense fallback={null}>
                 <Model 
                 position={[0,-0.6,-1]} />
-      <ContactShadows position={[0, -0.57, 0]} width={8} height={10} far={3} rotation={[Math.PI / 2, 0, 0]} />
+      <ContactShadows position={[-0.01, -0.57, 0]} width={8} height={10} far={3} rotation={[Math.PI / 2, 0, 0]} />
               </Suspense>
-              <ambientLight intensity={1} />
-              <pointLight position={[12, 5, 1]} />
-              <pointLight position={[2, 5, 1]} />
-              <pointLight position={[-15, 1, 1]} />
+              <ambientLight color={0xFFF200}intensity={0.3} />
+              <pointLight intensity={0.1}color={0xFFF200} position={[1, 1, 1]} />
+       
+              <pointLight color={0xECECEC} position={[2, 5, 1]} />
+              <pointLight  color={0xECECEC}position={[-15, 1, 1]} />
+              <pointLight color={0xECECEC} position={[0, 12, 1]} />
+
 
               <pointLight position={[0, 0, 0]} />
               <OrbitControls 
