@@ -13,7 +13,7 @@ import { useGLTF } from '@react-three/drei/core/useGLTF'
 
 export default function Model(props) {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('/scene.gltf')
+  const { nodes, materials } = useGLTF('/scene.gltf')
 /*   const {   actions } = useAnimations(animations, group)
    const [name, setName] = useState("Animation")
   useEffect(() => {
