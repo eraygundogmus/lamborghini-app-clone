@@ -6,22 +6,20 @@ source: https://sketchfab.com/3d-models/lamborghini-centenario-lp-770-interior-s
 title: Lamborghini Centenario LP-770 Interior SDC
 */
 
-import * as THREE from 'three'
-import React, { useRef, useState, useEffect } from 'react'
-import { useFrame } from 'react-three-fiber'
+import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei/core/useGLTF'
 
-import { useAnimations } from '@react-three/drei/core/useAnimations'
+/* import { useAnimations } from '@react-three/drei/core/useAnimations' */
 
 export default function Model(props) {
   const group = useRef()
   const { nodes, materials, animations } = useGLTF('/scene.gltf')
-  const {   actions } = useAnimations(animations, group)
-/*   const [name, setName] = useState("Animation")
+/*   const {   actions } = useAnimations(animations, group)
+   const [name, setName] = useState("Animation")
   useEffect(() => {
     actions[name].reset().fadeIn(0.5).play()
     return () => actions[name].fadeOut(0.5)
-  }, [name]) */
+  }, [name])  */
 
   return (
     <group ref={group} {...props} dispose={null}>

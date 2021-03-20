@@ -9,7 +9,7 @@ function Header() {
     return (
         <div className="header">
             <div className="header-logo">
-                <img src={logo}/>
+                <img alt="img" src={logo}/>
             </div>
             <div className="header_nav">
                 <div className="header_nav_left">
@@ -50,13 +50,13 @@ function Header() {
             <div className="header_nav_buttons">
                     <ul>
                         <li>
-                            <img src={chat} />
+                            <img alt="img" src={chat} />
                         </li>
                         <li>
-                            <img src={loupe} />
+                            <img alt="img" src={loupe} />
                         </li>
                         <li>
-                            <img src={menu} />
+                            <img alt="img" src={menu} />
                         </li>
                     </ul>
                 </div>

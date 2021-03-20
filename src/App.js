@@ -1,6 +1,6 @@
 import './App.scss';
 import Header from './components/Header'
-import { Canvas, useResource, useThree } from "react-three-fiber";
+import { Canvas, useResource } from "react-three-fiber";
 import {OrbitControls} from "@react-three/drei"
 import { PerspectiveCamera,  ContactShadows  } from '@react-three/drei'
 import React, { Suspense  } from 'react'
